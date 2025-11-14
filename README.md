@@ -1,16 +1,10 @@
-# React + Vite
+Alumno: Wilbert Novelo Ruiz - 64581
+# Tic-Tac-Toe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+### Funciones Extra/Mejoras
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Se agrego un selector para el tamaño del tablero con 3 opciones, 3x3, 4x4, 10x10 (el ganador sigue siendo el primero que haga 3 en raya).
+- Se agrego un boton de reinicio del juego mas intuitivo.
+- Mejore la logica de la funcion para encontrar al ganador, agregando una funcion la cual va leyendo casilla por casilla y si encuentra a un jugador revisa las casilla adyacentes para encontrar al ganador, haciendo que funcione sin importar el tamaño del tablero.
+- Se agregaron estilos sencillos para mejor estetica.
