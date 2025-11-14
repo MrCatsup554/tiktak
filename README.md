@@ -8,3 +8,8 @@ Alumno: Wilbert Novelo Ruiz - 64581
 - Se agrego un boton de reinicio del juego mas intuitivo.
 - Mejore la logica de la funcion para encontrar al ganador, agregando una funcion la cual va leyendo casilla por casilla y si encuentra a un jugador revisa las casilla adyacentes para encontrar al ganador, haciendo que funcione sin importar el tamaño del tablero.
 - Se agregaron estilos sencillos para mejor estetica.
+---
+### Easter egg
+
+- Presiona el titulo Tic Tac Toe para revelarlo
+
